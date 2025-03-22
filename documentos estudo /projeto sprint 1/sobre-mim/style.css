@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter.ttf) format("truetype");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+}
+
+/* adicione as regras CSS para o título da pagina */
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* adicione aqui as regras restantes */
+}
+
+/* adicionar regras CSS para cartões/cards e seu conteúdo aqui */
+
+.footer {
+  display: flex;
+  /* adicione aqui as regras restantes */
+}
+
+/* adicionar uma regra CSS para a assinatura do rodapé */

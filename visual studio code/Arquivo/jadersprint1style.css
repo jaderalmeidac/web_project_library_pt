@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter.ttf) format("truetype");
+}
+
+
+h1
+{ 
+  font-family: "Permanent Marker", cursive;
+  font-size: 120px;
+  color: white;
+  font-weight: 200;
+  padding-top: 80x;
+  text-align: center;
+  margin: auto;
+  max-width: 1240px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page { 
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+  
+  }
+  
+.header {
+  height: 70vh;
+  background-image: url(./images/jader-projeto1.jpg);
+  background-size: cover;
+  background-position: center;
+  
+
+
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 100px auto 100px;
+  background-color:  rgb(255, 255, 255);
+  padding: 0 20px;
+}
+
+.card {
+    width: 350px;
+    margin: 40px 90px 60px 90px;
+    padding: 45px 45px 50px;
+    display: inline-block;
+    background: white;
+    box-shadow: 4px 4px 5px rgba(68, 107, 53, 0.4);
+  }
+
+  .card-title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .card_image {
+    height: 350px;
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  
+  h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+
+ .alt {
+  font-size: 16px;
+  }
+  
+.footer {
+  display: flex;
+  min-height: 300px;
+  background-color: #000000;
+  margin: auto;
+}
+
+.footer-author {
+  font-size: 24px;
+  color:  #ffffff;
+  margin: auto;
+
+}
+
+

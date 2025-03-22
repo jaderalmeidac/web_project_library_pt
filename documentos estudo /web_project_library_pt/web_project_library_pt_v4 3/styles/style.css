@@ -1,0 +1,64 @@
+.page {
+  /* Adicione as propriedades da classe page aqui */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* Adicione as propriedades flex aqui */
+}
+
+.nav__logo {
+}
+
+.nav__links {
+  /* Redefina o estilo de listas padrão aqui */
+  margin: 8px 0 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  /* Adicione as propriedades flex aqui */
+}
+
+.header__title {
+}
+
+.header__description {
+}
+
+.header__image {
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
