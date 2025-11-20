@@ -8,7 +8,17 @@
   line-height: 20px;
 }
 
-/* Para usar Noto Serif em algum elemento depois */
 .noto {
   font-family: "Noto Serif", "Times New Roman", serif;
-}
+} 
+.header { /* estilos do header */ }
+
+.hero { /* seção principal/topo */ }
+
+.about { /* sobre a biblioteca/café */ }
+
+.videos { /* vídeos ou eventos */ }
+
+.videos__items { /* itens de vídeo */ }
+
+.reservations { /* área de reservas */ }
